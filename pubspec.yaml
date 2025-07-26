@@ -1,0 +1,50 @@
+name: altcha_widget
+description: "Privacy-first, accessible CAPTCHA widget, compliant with global data privacy regulations. No tracking, self-verifying."
+version: 1.0.0
+homepage: https://altcha.org
+repository: https://github.com/altcha-org/altcha-flutter
+issue_tracker: https://github.com/altcha-org/altcha-flutter/issues
+topics:
+  - altcha
+  - captcha
+  - recaptcha
+  - invisible-captcha
+  - security
+
+screenshots:
+  - description: 'ALTCHA Widget in Dark theme.'
+    path: assets/images/altcha-dark.png
+  - description: 'ALTCHA Widget in Dark theme with Code Challenge.'
+    path: assets/images/altcha-dark-code.png
+  - description: 'ALTCHA Widget in Light theme.'
+    path: assets/images/altcha-light.png
+  - description: 'ALTCHA Widget in Light theme with Code Challenge.'
+    path: assets/images/altcha-light-code.png
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  crypto: ^3.0.6
+  flutter:
+    sdk: flutter
+  flutter_native_timezone: ^2.0.0
+  flutter_svg: ^2.2.0
+  http: ^1.4.0
+  just_audio: ^0.10.4
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_localizations:
+    sdk: flutter
+  mocktail: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
